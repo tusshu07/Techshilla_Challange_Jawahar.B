@@ -1,8 +1,5 @@
 # Techshilla_Swarm_Challange
 Drone   Swarming Challenge
-
-We are using ROS, Gazebo, and ArduPilot to swarm 12 drones and draw a given shape. First, we draw a pattern or shape on a PC or tablet, and then extract 12 points that correspond to the 12 drones' desired positions. We use ROS to manage the drone swarm, Gazebo to simulate the drones and environment, and ArduPilot to control the drones' flight. The goal of this project is to demonstrate the capabilities of these technologies in coordinating a drone swarm to perform a specific task. Through this project, we aim to showcase the potential of swarm robotics and the advantages it offers over traditional single-robot systems.
-
 REQUIREMENTS AND INSTALLATIONS
 
  *ROS 
@@ -66,5 +63,21 @@ RNGFND1_SCALING 10
 RNGFND1_PIN 0
 RNGFND1_MAX_CM 5000
 SYSID_THISMAV 1
+```
+After all these, clone the repository and perform catkin make!
+
+```
+Go to <package-name>/scripts and open the terminal and run -
+```
+./swarm.sh
+```
+Open another terminal and run the following scripts.
+```
+roslaunch <package-name> multi_drone.launch
+roslaunch <package-name> multi-apm.launch
+```
+FINALLY when the drones are ready to fly, run the final script and enjoy!
+```
+roslaunch <package-name> multi-swarm.launch
 ```
 
