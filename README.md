@@ -66,17 +66,19 @@ SYSID_THISMAV 1
 ```
 After all these, clone the repository and perform catkin make!
 
-```
 Go to <package-name>/scripts and open the terminal and run -
 ```
 ./swarm.sh
 ```
 Open another terminal and run the following scripts.
+
 ```
 roslaunch <package-name> multi_drone.launch
 roslaunch <package-name> multi-apm.launch
 ```
+
 FINALLY when the drones are ready to fly, run the final script and enjoy!
+
 ```
 roslaunch <package-name> multi-swarm.launch
 ```
