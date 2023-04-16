@@ -84,3 +84,7 @@ roslaunch <package-name> multi-swarm.launch
 ```
 
 Simultion Vedio Drive link ;- https://drive.google.com/file/d/1rtrP1OD9RH50Px7JEUynsnQ6ST7LP-Zz/view?usp=share_link
+            
+The files are in this drive link - https://drive.google.com/drive/folders/1WHFRQDa6Qpl1Skk3DTBOA-1Lvz_3QzbH?usp=sharing
+
+Change the .txt file address in swarm.py in /home/<package-name>/scripts/ directory.
