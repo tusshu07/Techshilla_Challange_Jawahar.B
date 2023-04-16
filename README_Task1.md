@@ -24,7 +24,7 @@ This will install the executable file of Submission file in the dist folder
 Double click on this executable application file.
 It will run the two windows simultaneously : one of GUI Application and other one will be command window.
 Enter the number of drones,plane and draw the shape in the grid area in pink. Click on download and quit button.
-Important not: Plane must be entered in the format of "xy"/"yx"/"yz"/"zy"/"xz"/"zx" only.
+Important note: Plane must be entered in the format of "xy"/"yx"/"yz"/"zy"/"xz"/"zx" only.
 <img width="165" alt="image" src="https://user-images.githubusercontent.com/87833566/232300586-f1b2f7e0-bb30-48eb-bc1d-91a9463b6180.png">
 
 It will generate the 2-D drone coordinates in the txt file.This file will be saved as 3D_drone_coordinates.txt in the dist folder.
